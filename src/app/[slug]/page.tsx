@@ -31,6 +31,9 @@ export async function generateMetadata({
       icon: "https://www.tdscoaching.fr/assets/logo/logo3.webp",
     },
     robots: "index, follow",
+    other: {
+      "google-site-verification": "Y4xZukc_t4Ow9fnxrPprO_4tGLfVZv972xeGF6znJNw",
+    },
   };
 }
 

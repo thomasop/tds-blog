@@ -22,6 +22,9 @@ export const metadata = {
     "Développement personnel, Coaching professionnel, Relation de couple, Communication, Équilibre vie professionnelle-vie personnelle, Confiance en soi, Gestion du stress",
   author: "Thierry Da Silva",
   robots: "index, follow",
+  other: {
+    "google-site-verification": "Y4xZukc_t4Ow9fnxrPprO_4tGLfVZv972xeGF6znJNw",
+  },
 };
 
 async function getData() {
