@@ -11,6 +11,19 @@ const Parisienne = localFont({
   display: "swap",
 });
 
+export const metadata = {
+  title: "Tous les articles - tdscoaching",
+  description:
+    "Retrouvez tous les articles de Thierry Da Silva, coach de vie, sur le développement personnel, le coaching professionnel, la relation de couple, la communication, l'équilibre vie professionnelle-vie personnelle, la confiance en soi et la gestion du stress.",
+  icons: {
+    icon: "https://www.tdscoaching.fr/assets/logo/logo3.webp",
+  },
+  keywords:
+    "Développement personnel, Coaching professionnel, Relation de couple, Communication, Équilibre vie professionnelle-vie personnelle, Confiance en soi, Gestion du stress",
+  author: "Thierry Da Silva",
+  robots: "index, follow",
+};
+
 async function getData() {
   const getArticleData = await prisma.article.findMany({
     select: {

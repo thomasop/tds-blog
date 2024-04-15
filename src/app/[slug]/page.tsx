@@ -15,11 +15,29 @@ const Parisienne = localFont({
   display: "swap",
 });
 
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const oneData: any = await getOne({ slug: params.slug });
+  return {
+    title: oneData.title,
+    description: oneData.description,
+    keywords:
+      "Développement personnel, Coaching professionnel, Relation de couple, Communication, Équilibre vie professionnelle-vie personnelle, Confiance en soi, Gestion du stress",
+    author: "Thierry Da Silva",
+    icons: {
+      icon: "https://www.tdscoaching.fr/assets/logo/logo3.webp",
+    },
+    robots: "index, follow",
+  };
+}
+
 async function getOne({ slug }: { slug: string }) {
   const article = await prisma.article.findUnique({
     where: { slug: slug },
   });
-  //test
   return article;
 }
 
