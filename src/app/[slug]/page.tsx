@@ -19,6 +19,7 @@ async function getOne({ slug }: { slug: string }) {
   const article = await prisma.article.findUnique({
     where: { slug: slug },
   });
+  //test
   return article;
 }
 
