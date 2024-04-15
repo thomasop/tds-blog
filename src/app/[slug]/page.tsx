@@ -1,3 +1,5 @@
+import "server-only";
+
 import React from "react";
 import prisma from "../../../lib/prisma";
 import styles from "./page.module.scss";

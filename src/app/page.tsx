@@ -1,10 +1,10 @@
+import "server-only";
+
 import Image from "next/image";
 import prisma from "../../lib/prisma";
 import Paragraph from "./components/home/Paragraph";
 import Button from "./components/home/Button";
-import ImageArticle from "./components/home/ImageArticle";
 import styles from "./page.module.scss";
-import Link from "next/link";
 import localFont from "next/font/local";
 const Parisienne = localFont({
   src: "./Parisienne-Regular.ttf",
