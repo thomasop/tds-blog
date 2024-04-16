@@ -9,27 +9,21 @@ import styles from "../Content.module.scss";
 const CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques = () => {
   return (
     <>
-      <div className={styles.div}>
-        <h2
-          id={"developpement"}
-          className={`${styles.div__h2} ${Parisienne.className}`}
-        >
-          Développement :
+      <div id={"pratiqueRespiration"} className={styles.div}>
+        <h2 className={`${styles.div__h2} ${Parisienne.className}`}>
+          Pratique de la respiration profonde et de la relaxation :
         </h2>
         <p className={styles.div__p}>
-          Pratique de la respiration profonde et de la relaxation : Lorsque vous
-          vous sentez submergé par le stress, prenez quelques instants pour vous
-          concentrer sur votre respiration. La respiration profonde peut aider à
-          calmer le système nerveux et à réduire les sentiments d&#39;anxiété.
-          Pratiquez des techniques de relaxation telles que la respiration
-          abdominale ou la visualisation guidée pour vous aider à vous détendre.
+          Lorsque vous vous sentez submergé par le stress, prenez quelques
+          instants pour vous concentrer sur votre respiration. La respiration
+          profonde peut aider à calmer le système nerveux et à réduire les
+          sentiments d&#39;anxiété. Pratiquez des techniques de relaxation
+          telles que la respiration abdominale ou la visualisation guidée pour
+          vous aider à vous détendre.
         </p>
       </div>
-      <div className={styles.div}>
-        <h2
-          id={"gestionDuTemps"}
-          className={`${styles.div__h2} ${Parisienne.className}`}
-        >
+      <div id={"gestionDuTemps"} className={styles.div}>
+        <h2 className={`${styles.div__h2} ${Parisienne.className}`}>
           Gestion du temps et des priorités :
         </h2>
         <p className={styles.div__p}>
@@ -40,11 +34,8 @@ const CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques = () => {
           efficacement, vous pouvez réduire le sentiment d&#39;être submergé.
         </p>
       </div>
-      <div className={styles.div}>
-        <h2
-          id={"pratique"}
-          className={`${styles.div__h2} ${Parisienne.className}`}
-        >
+      <div id={"pratiqueExercice"} className={styles.div}>
+        <h2 className={`${styles.div__h2} ${Parisienne.className}`}>
           Pratique de l&#39;exercice physique régulier :
         </h2>
         <p className={styles.div__p}>
@@ -56,11 +47,8 @@ const CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques = () => {
           le yoga ou la danse, et intégrez-la régulièrement dans votre routine.
         </p>
       </div>
-      <div className={styles.div}>
-        <h2
-          id={"pratiqueDeLalimentation"}
-          className={`${styles.div__h2} ${Parisienne.className}`}
-        >
+      <div id={"pratiqueDeLalimentation"} className={styles.div}>
+        <h2 className={`${styles.div__h2} ${Parisienne.className}`}>
           Gestion de l&#39;alimentation et de l&#39;hydratation :
         </h2>
         <p className={styles.div__p}>
@@ -73,11 +61,8 @@ const CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques = () => {
           d&#39;eau tout au long de la journée pour rester hydraté.
         </p>
       </div>
-      <div className={styles.div}>
-        <h2
-          id={"pratiqueDeLaPleine"}
-          className={`${styles.div__h2} ${Parisienne.className}`}
-        >
+      <div id={"pratiqueDeLaPleine"} className={styles.div}>
+        <h2 className={`${styles.div__h2} ${Parisienne.className}`}>
           Pratique de la pleine conscience :
         </h2>
         <p className={styles.div__p}>
@@ -89,11 +74,8 @@ const CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques = () => {
           pensées négatives et de vous concentrer sur le moment présent.
         </p>
       </div>
-      <div className={styles.div}>
-        <h2
-          id={"conclusion"}
-          className={`${styles.div__h2} ${Parisienne.className}`}
-        >
+      <div id={"conclusion"} className={styles.div}>
+        <h2 className={`${styles.div__h2} ${Parisienne.className}`}>
           Conclusion :
         </h2>
         <p className={styles.div__p}>

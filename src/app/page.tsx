@@ -49,7 +49,7 @@ export default async function Home() {
           <h2
             className={`${styles.home__article__container__h2} ${Parisienne.className}`}
           >
-            Derniers articles
+            Tous les articles
           </h2>
 
           <div className={styles.home__article__container__content}>

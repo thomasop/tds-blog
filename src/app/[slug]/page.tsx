@@ -81,7 +81,7 @@ export default async function page({ params }: { params: { slug: string } }) {
             {oneData?.title}
           </h1>
         </div>
-        <div className={styles.article__container}>
+        <div id="introduction" className={styles.article__container}>
           <div className={styles.article__container__left}>
             <Link className={styles.article__container__left__link} href={"/"}>
               Retour vers les articles
@@ -102,10 +102,6 @@ export default async function page({ params }: { params: { slug: string } }) {
             {oneData?.slug ===
               "comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques" && (
               <CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques />
-            )}
-            {oneData?.slug ===
-              "comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques-2" && (
-              <CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques2 />
             )}
           </div>
 
