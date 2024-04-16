@@ -9,7 +9,6 @@ import Image from "next/image";
 import localFont from "next/font/local";
 import CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques from "./components/comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques/comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques";
 import CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiquesSomaire from "./components/comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques/comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques-somaire";
-import CommentGererLeStressEtLanxieteAuQuotidienConseilsPratiques2 from "./components/comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques2/comment-gerer-le-stress-et-l-anxiete-au-quotidien-conseils-pratiques2";
 const Parisienne = localFont({
   src: "../Parisienne-Regular.ttf",
   display: "swap",
