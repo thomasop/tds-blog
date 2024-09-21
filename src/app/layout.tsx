@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 import { Suspense } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <Analytics />
         </Suspense>
       </body>
     </html>
